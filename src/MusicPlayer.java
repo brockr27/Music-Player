@@ -1,6 +1,9 @@
 import java.awt.EventQueue;
 
 import javax.swing.JFrame;
+import javax.swing.JButton;
+import java.awt.event.ActionListener;
+import java.awt.event.ActionEvent;
 
 /**
  * This is the main class for the Music Player project. This is where the actual program will run.
@@ -42,6 +45,10 @@ public class MusicPlayer {
 		frame = new JFrame();
 		frame.setBounds(100, 100, 450, 300);
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		frame.getContentPane().setLayout(null);
+		
+		JButton btnButton = new JButton("Button");
+		btnButton.setBounds(173, 137, 89, 23);
+		frame.getContentPane().add(btnButton);
 	}
-
 }
