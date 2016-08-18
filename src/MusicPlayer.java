@@ -46,9 +46,5 @@ public class MusicPlayer {
 		frame.setBounds(100, 100, 450, 300);
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		frame.getContentPane().setLayout(null);
-		
-		JButton btnButton = new JButton("Button");
-		btnButton.setBounds(173, 137, 89, 23);
-		frame.getContentPane().add(btnButton);
 	}
 }
