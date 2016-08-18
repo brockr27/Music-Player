@@ -2,6 +2,10 @@ import java.awt.EventQueue;
 
 import javax.swing.JFrame;
 
+/**
+ * This is the main class for the Music Player project. This is where the actual program will run.
+ * @author Brock
+ */
 public class MusicPlayer {
 
 	private JFrame frame;
