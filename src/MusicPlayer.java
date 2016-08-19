@@ -154,6 +154,7 @@ public class MusicPlayer {
 		pnlPlaylist.add(spPlaylist);
 		
 		txtPlaylistName = new JTextField();
+		txtPlaylistName.setEditable(false);
 		txtPlaylistName.setBounds(0, 0, 338, 30);
 		pnlPlaylist.add(txtPlaylistName);
 		txtPlaylistName.setFont(new Font("Tahoma", Font.BOLD, 20));
