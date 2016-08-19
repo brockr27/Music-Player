@@ -9,9 +9,6 @@ import chrriis.dj.nativeswing.swtimpl.NativeInterface;
 import chrriis.dj.nativeswing.swtimpl.components.JWebBrowser;
 
 import java.awt.Font;
-import java.util.ArrayList;
-
-import javax.swing.JList;
 import javax.swing.JPanel;
 import javax.swing.JSlider;
 import java.awt.Canvas;
@@ -19,8 +16,6 @@ import javax.swing.SwingConstants;
 
 /**
  * This is the main class for the Music Player project. This is where the actual program will run.
- * @author Brock
- * Dakota's code
  */
 public class MusicPlayer {
 
