@@ -19,5 +19,5 @@ Doing changes:
 6. Done
 
 Creating a new branch:
-1. git checkout -b [nameOfBranch] // creates and switches to a new branch
-2. git push origin [nameOfBranch] // pushes the new branch to github
+1. git checkout -b [nameOfBranch]
+2. git push origin [nameOfBranch]
