@@ -17,3 +17,7 @@ Doing changes:
 4. Type "git commit -m "Info about you change"" (You'll see something like "2 files changed, 1 insertion, 1 deletion" or something)
 5. Type "git push --all" (You'll see a lot of text and progress percents)
 6. Done
+
+Creating a new branch:
+1. git checkout -b [nameOfBranch] // creates and switches to a new branch
+2. git push origin [nameOfBranch] // pushes the new branch to github
