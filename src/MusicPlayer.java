@@ -28,12 +28,29 @@ public class MusicPlayer {
 	private JTextField txtPlaylistName;
 	private JTextField txtSongName;
 	private JTextField txtArtist;
-
+	
+	// A fake database list
+	static ArrayList<String> databaseList = new ArrayList<String>();
 	
 	/**
 	 * Launch the application.
 	 */
 	public static void main(String[] args) {
+		// Populate the fake database list with youtube songs
+		databaseList.add("https://www.youtube.com/watch?v=fIeCx6eZjJk");
+		databaseList.add("https://www.youtube.com/watch?v=ceAqZkjIFhI");
+		databaseList.add("https://www.youtube.com/watch?v=LBGPJdkfT9U");
+		databaseList.add("https://www.youtube.com/watch?v=vA_LgDo3WcI");
+		databaseList.add("https://www.youtube.com/watch?v=4-PkAQcuZOw");
+		
+		/* Commented out when I don't want to use up my YouTube quota
+		 ** FOR DEBUG/TESTING PURPOSES ONLY **
+		VideoData vData;
+		songList = new String[databaseList.size()];
+		for(int i = 0; i < databaseList.size(); i++) {
+			vData = getVideoData(databaseList.get(i));
+			songList[i] = vData.getTitle();
+		}*/
 		
 		NativeInterface.open();
 		EventQueue.invokeLater(new Runnable() {
