@@ -1,16 +1,8 @@
 import java.awt.EventQueue;
 
 import javax.swing.JFrame;
-import javax.swing.JButton;
-import java.awt.event.ActionListener;
-import java.awt.event.ActionEvent;
 
-/**
- * This is the main class for the Music Player project. This is where the actual program will run.
- * @author Brock
- * This is dakota's change.
- */
-public class MusicPlayer {
+public class test {
 
 	private JFrame frame;
 
@@ -21,13 +13,11 @@ public class MusicPlayer {
 		EventQueue.invokeLater(new Runnable() {
 			public void run() {
 				try {
-					MusicPlayer window = new MusicPlayer();
+					test window = new test();
 					window.frame.setVisible(true);
 				} catch (Exception e) {
 					e.printStackTrace();
 				}
-				
-				
 			}
 		});
 	}
@@ -35,7 +25,7 @@ public class MusicPlayer {
 	/**
 	 * Create the application.
 	 */
-	public MusicPlayer() {
+	public test() {
 		initialize();
 	}
 
@@ -46,6 +36,6 @@ public class MusicPlayer {
 		frame = new JFrame();
 		frame.setBounds(100, 100, 450, 300);
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-		frame.getContentPane().setLayout(null);
 	}
+
 }
